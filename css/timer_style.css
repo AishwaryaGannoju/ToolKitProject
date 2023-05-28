@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Sofia Sans', sans-serif;
+
+
+    color: rgb(17, 16, 16);
+}
+
+.back {
+    position: absolute;
+    top: 70px;
+    right: 90px;
+    color: black;
+    font-size: 20px;
+
+}
+
+.back:hover {
+    font-weight: bolder;
+    transition: 0.3s ease-out;
+}
+
+body {
+    height: 100vh;
+    background-image: url(images/timerimg.jpeg);
+    background-position: center center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: rgb(86, 59, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2em;
+    background: none;
+}
+
+.tit {
+
+    justify-self: center;
+    width: 100vw;
+    margin-top: 8rem;
+    background: none;
+
+}
+
+#container {
+
+    display: flex;
+    flex-direction: column;
+    background: none;
+    height: 50vh;
+
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    margin-top: 2rem;
+    background: none;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    height: 1vh;
+    align-items: flex-start;
+    background: none;
+    background: none;
+}
+
+/*label*/
+.label {
+    
+    opacity: .5;
+    justify-self: center;
+    align-self: center;
+    font-size: 30px;
+    background: none;
+}
+
+
+
+/*times*/
+.time {
+    justify-self: end;
+    margin-left: 1.5rem;
+    align-self: flex-end;
+    opacity: .8;
+    border: none;
+    background-color: #ffffff00;
+    font-size: 50px;
+    width: 70px;
+    background: none;
+    height: 50px;
+}
+
+
+
+
+
+/*buttons*/
+
+.btn {
+    align-self: center;
+    margin: 1rem;
+    border-radius: .3rem;
+    border: .3px solid gray;
+    width: 100px;
+    height: 40px;
+    margin-top: 4em;
+    font-size: 30px;
+    justify-self: center;
+    background-color: #ffffff00;
+}
+
+
+
+.h,
+.m,
+.s {
+
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.h:hover,
+.m:hover,
+.s:hover {
+    background-color: rgb(212, 186, 161);
+}
+
+.bottom button:hover {
+    color: rgb(187, 132, 23);
+    cursor: pointer;
+}
