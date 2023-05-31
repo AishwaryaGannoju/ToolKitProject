@@ -137,3 +137,19 @@ nav .menu {
   background: white;
   color: black;
 }
+@media (max-width: 426px){
+  .center .btns .middle {
+  margin-top: 20px;
+  }
+.center .title {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+  }
+  .center .sub_title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+}
